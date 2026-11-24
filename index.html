@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>מצפן · קולות קוראים לרשויות המקומיות</title>
+  <link rel="canonical" href="https://matzpen.efficio.solutions/" />
+  <meta name="description" content="מצפן מרכז קולות קוראים ומענקים לרשויות המקומיות בישראל. by Efficio." />
+  <script>
+    document.documentElement.setAttribute("data-theme", "navy");
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/">
+        <span class="mark">מ</span>
+        <span>
+          <span class="brand-name">מצפן</span>
+          <span class="brand-tag">קולות קוראים ומענקים לרשויות המקומיות</span>
+        </span>
+      </a>
+      <nav class="top-actions">
+        <a href="#/">כל הקולות</a>
+        <a href="#/motzkin">קריית מוצקין</a>
+        <a href="#/alerts">התראות מועד</a>
+      </nav>
+    </div>
+  </header>
+  <main id="app"></main>
+  <footer>
+    <div class="footer-inner">
+      <p><strong>מצפן</strong> הוא כלי נפרד, שאינו חלק מ־BIDUP. <span class="byline">by Efficio</span></p>
+      <p id="disclaimer"></p>
+    </div>
+  </footer>
+  <script src="js/data.js"></script>
+  <script src="js/fits.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.getElementById("disclaimer").textContent = MATZPEN.disclaimer;
+  </script>
+</body>
+</html>
